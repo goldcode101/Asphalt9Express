@@ -21,6 +21,25 @@ const cars = [
         stars: "3",
         blueprints: "5,8,30",
         ranks: "467,791,1094,1381"
+    },
+    {
+        id: "2",
+        name: "BMW Z4 LCI E89",
+        class: "D",
+        type: "Uncommon",
+        fuel: "6",
+        refillTimeMin: "5",
+        speed: "250",
+        acc: "58.6",
+        handling: "39.02",
+        nitro: "45.09",
+        mspeed: "266.8",
+        macc: "68.86",
+        mhandling: "47.43",
+        mnitro: "57.49",
+        stars: "3",
+        blueprints: "5,8,45",
+        ranks: "518,791,1177,1381"
     }
 ]
 
