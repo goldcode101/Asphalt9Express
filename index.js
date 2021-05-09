@@ -173,6 +173,25 @@ const cars = [
         stars: "3",
         blueprints: "20,12,30",
         ranks: "706,1097,1463,1814"
+    },
+    {
+        id: "10",
+        name: "DS Automobiles DS E-Tense",
+        class: "D",
+        type: "Uncommon",
+        fuel: "6",
+        refillTimeMin: "15",
+        speed: "250",
+        acc: "59.5",
+        handling: "45.09",
+        nitro: "51.56",
+        mspeed: "270.1",
+        macc: "76.07",
+        mhandling: "81.27",
+        mnitro: "72.03",
+        stars: "3",
+        blueprints: "20,12,30",
+        ranks: "799,1218,1610,1976"
     }
 ]
 
