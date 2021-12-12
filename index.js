@@ -201,6 +201,10 @@ app.use(function(req, res, next) {
     next();
 });
 
+app.get('/', (req, res) => {
+    res.send("<h2>Information about this API will live here.</h2><p>The cars api is at /api/cars.<p>");
+});
+
 app.get('/api/cars', (req, res) => {
     res.json(cars);
 });
