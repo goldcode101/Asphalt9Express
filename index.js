@@ -266,7 +266,7 @@ const cars = [
       mhandling: "61.91",
       mnitro: "60.26",
       stars: "4",
-      blueprints: "25,8,14,28"
+      blueprints: "25,8,14,28",
       ranks: "1006,1310,1658,2016,2360"
     }
 ]
