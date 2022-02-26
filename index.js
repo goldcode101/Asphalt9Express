@@ -251,23 +251,23 @@ const cars = [
         ranks: "715,1069,1462,1864,2247"
     },
     {
-      id: "14",
-      name: "Porsche 718 Cayman",
-      class: "D",
-      type: "Rare",
-      fuel: "5",
-      refillTimeMin: "15",
-      speed: "275",
-      acc: "55.9",
-      handling: "51.89",
-      nitro: "39.39",
-      mspeed: "295.7",
-      macc: "70.52",
-      mhandling: "61.91",
-      mnitro: "60.26",
-      stars: "4",
-      blueprints: "25,8,14,28",
-      ranks: "1006,1310,1658,2016,2360"
+        id: "14",
+        name: "Porsche 718 Cayman",
+        class: "D",
+        type: "Rare",
+        fuel: "5",
+        refillTimeMin: "15",
+        speed: "275",
+        acc: "55.9",
+        handling: "51.89",
+        nitro: "39.39",
+        mspeed: "295.7",
+        macc: "70.52",
+        mhandling: "61.91",
+        mnitro: "60.26",
+        stars: "4",
+        blueprints: "25,8,14,28",
+        ranks: "1006,1310,1658,2016,2360"
     }
 ]
 
@@ -278,7 +278,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/index.html'));
+    res.sendFile(path.join(__dirname, './index.html'));
 });
 
 app.get('/api/cars', (req, res) => {
