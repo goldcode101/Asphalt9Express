@@ -259,7 +259,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', (req, res) => {
-    res.send("<h2>Information about this API will live here.</h2><p>The cars api is at /api/cars.<p>");
+    res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 app.get('/api/cars', (req, res) => {
