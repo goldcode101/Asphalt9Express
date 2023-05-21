@@ -268,6 +268,44 @@ const cars = [
         stars: "4",
         blueprints: "25,8,14,28",
         ranks: "1006,1310,1658,2016,2360"
+    },
+    {
+        id: "15",
+        name: "Renault DeZir",
+        class: "D",
+        type: "Rare",
+        fuel: "5",
+        refillTimeMin: "15",
+        speed: "275.7",
+        acc: "55",
+        handling: "44.86",
+        nitro: "51.55",
+        mspeed: "293.2",
+        macc: "65.56",
+        mhandling: "69.43",
+        mnitro: "68.44",
+        stars: "4",
+        blueprints: "30,23,33,42",
+        ranks: "899,1192,1531,1879,2213"
+    },
+    {
+        id: "16",
+        name: "Peugeot SR1",
+        class: "D",
+        type: "Rare",
+        fuel: "5",
+        refillTimeMin: "15",
+        speed: "290",
+        acc: "57.7",
+        handling: "32.35",
+        nitro: "8.68",
+        mspeed: "310.5",
+        macc: "71.51",
+        mhandling: "52.39",
+        mnitro: "31.19",
+        stars: "4",
+        blueprints: "30,23,33,42",
+        ranks: "721,1076,1483,1900,2307"
     }
 ]
 
